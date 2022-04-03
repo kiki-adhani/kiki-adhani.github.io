@@ -69,6 +69,10 @@ body {
   text-align: justify;
 }
 
+.about img {
+  float: left;
+}
+
 .about .social-media a {
   color: #141414;
   font-size: 36px;
@@ -185,5 +189,14 @@ footer a:hover {
 @media screen and (max-width: 960px) {
   .nav-item .nav-link {
     padding-right: 1em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about img {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
