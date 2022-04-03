@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  min-height: 2000px;
+}
+
+* {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  font-family: "Noto Serif Display";
+  font-size: 48px;
+  color: #141414;
+}
+
+.navbar-brand:hover {
+  color: #ed6b86;
+}
+
+.menu .nav-link {
+  color: #141414;
+  font-size: 20px;
+  margin: auto 12.5px;
+}
+
+.sm-icons {
+  flex-direction: row;
+}
+
+.sm-icons .nav-link {
+  color: #141414;
+  font-size: 28px;
+  margin: auto 2.5px;
+}
+
+.nav-link:hover {
+  color: #ed6b86;
+}
+
+.navbar-toggler-icon .fa-solid {
+  color: #141414;
+  font-size: 48px;
+}
+
+.home {
+  margin: 140px auto;
+}
+
+.about .row .col-4,
+.col-8 {
+  margin: 80px auto 120px;
+}
+
+.container h3 {
+  font-family: "Noto Serif Display";
+  font-size: 60px;
+}
+
+.container h4 {
+  margin: 20px auto;
+  font-weight: bold;
+}
+
+.container p {
+  text-align: justify;
+}
+
+.about .social-media a {
+  color: #141414;
+  font-size: 36px;
+  margin-right: 25px;
+  text-decoration: none;
+}
+
+.icons:hover {
+  color: #ed6b86;
+}
+
+.about .tools-icons a {
+  color: #141414;
+  font-size: 34px;
+  margin-right: 18px;
+  text-decoration: none;
+}
+
+.icons:hover {
+  color: #ed6b86;
+}
+
+.about .cv {
+  margin: 50px 0;
+}
+
+.about button {
+  background: #141414;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  outline: none;
+  padding: 13px 25px;
+  float: right;
+}
+
+.about button:hover {
+  background-color: #ed6b86;
+  color: #fff;
+}
+
+/* Service */
+.service {
+  margin-bottom: 140px;
+}
+.service h3 {
+  margin-top: 140px;
+}
+
+/* Project */
+.project {
+  margin-bottom: 60px;
+}
+
+.project h3 {
+  margin: 60px auto 20px;
+}
+
+/* Contact */
+.contact {
+  margin-bottom: 70px;
+}
+
+.contact h3 {
+  margin-top: 60px;
+}
+
+.contact p {
+  margin-bottom: 5px;
+}
+
+.contact .send button {
+  background: #141414;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  outline: none;
+  padding: 13px 25px;
+}
+
+.contact .send button:hover {
+  background-color: #ed6b86;
+  color: #fff;
+}
+
+.contact .btn-loading {
+  background-color: #ed6b86;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 20px;
+  outline: none;
+  padding: 13px 25px;
+}
+
+/* Footer */
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer i:hover {
+  color: #ed6b86;
+}
+
+footer a:hover {
+  color: #ed6b86;
+}
+
+@media screen and (max-width: 960px) {
+  .nav-item .nav-link {
+    padding-right: 1em;
+  }
+}
