@@ -133,6 +133,36 @@ body {
   margin: 60px auto 20px;
 }
 
+.project img {
+  width: 300px;
+}
+
+.project a {
+  text-decoration: none;
+  width: 500;
+  color: #141414;
+}
+
+.project a:hover {
+  color: #ed6b86;
+}
+
+.project button {
+  background: #141414;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  outline: none;
+  padding: 13px 25px;
+}
+
+.project button:hover {
+  background-color: #ed6b86;
+  color: #fff;
+}
+
 /* Contact */
 .contact {
   margin-bottom: 70px;
