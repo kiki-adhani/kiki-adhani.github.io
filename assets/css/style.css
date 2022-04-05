@@ -231,6 +231,11 @@ footer a:hover {
   display: none;
 }
 
+.scroll:hover {
+  color: #fff;
+  background-color: #ed6b86;
+}
+
 @media screen and (max-width: 960px) {
   .nav-item .nav-link {
     padding-right: 1em;
