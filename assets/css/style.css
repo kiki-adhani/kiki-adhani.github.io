@@ -123,6 +123,15 @@ body {
 .service h3 {
   margin-top: 140px;
 }
+.service .card {
+  border: none;
+}
+.service img {
+  height: 100px;
+}
+.service .card-text {
+  text-align: center;
+}
 
 /* Project */
 .project {
@@ -248,5 +257,8 @@ footer a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+  .service img {
+    height: 150px;
   }
 }
